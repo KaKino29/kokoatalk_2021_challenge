@@ -1,6 +1,6 @@
 #chat-screen {
   background-color: #abc1d1;
-  height: 500vh;
+  height: 300vh;
 }
 
 #chat-screen .alt-header,
@@ -31,6 +31,7 @@
     opacity: 1;
   }
 }
+
 
 .main-chat {
   margin-top: 120px;
@@ -81,6 +82,14 @@
   margin-right: 5px;
 }
 
+.message__bubble img {
+  display: grid;
+  width: 200px;
+  height: auto;
+  border-radius: 0;
+  margin-top: 10px;
+}
+
 .message__time,
 .message__author {
   opacity: 0.8;
@@ -129,7 +138,7 @@
 }
 
 .reply input {
-  padding: 14px;
+  padding: 15px;
   width: 100%;
   border: var(--main-border);
   border-radius: 25px;
